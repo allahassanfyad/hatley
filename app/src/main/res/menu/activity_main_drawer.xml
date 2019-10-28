@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <item
+        android:id="@+id/personal"
+        android:icon="@drawable/personal"
+        android:title="Personal Info" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:title="Share And Earn" />
+    <item
+        android:id="@+id/promoCode"
+        android:icon="@drawable/promocode"
+        android:title="Promo Code" />
+    <item
+        android:id="@+id/payment"
+        android:icon="@drawable/payment"
+        android:title="Payment" />
+    <item
+        android:id="@+id/faq"
+        android:icon="@drawable/faq"
+        android:title="FAQ" />
+    <item
+        android:id="@+id/orders"
+        android:icon="@drawable/orders"
+        android:title="Your Orders" />
+
+    <item
+        android:id="@+id/savedPlaces"
+        android:icon="@drawable/savedplaces"
+        android:title="Saved Places" />
+
+    <item
+        android:id="@+id/star"
+        android:icon="@drawable/star"
+        android:title="Display Application As Star" />
+
+
+</menu>

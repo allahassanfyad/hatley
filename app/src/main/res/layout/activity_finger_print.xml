@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Senarios.Senario_One.Controllers.Activities.FingerPrint"
+    android:background="@drawable/backgroundmain"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fingerprint"
+        android:layout_marginTop="180dp"
+        android:textColor="@color/scolor"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+x`
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="40dp"
+        android:tint="@color/scolor"
+        android:src="@drawable/finger"
+        android:backgroundTint="@color/scolor"
+        android:padding="20dp"
+        android:background="@drawable/circyl"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login using fingerprint"
+        android:textColor="@color/scolor"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

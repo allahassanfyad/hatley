@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Senarios.Senario_Four.Controllers.Activities.Avilabel_Offer"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <include layout="@layout/app_bar"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_weight="0.85"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:gravity="right">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right|center"
+        android:background="@drawable/btnsignin"
+        android:layout_marginRight="20dp"
+        android:text="Cancel Order"
+        android:textStyle="bold"
+        android:textColor="@color/wcolor"/>
+
+    </LinearLayout>
+</LinearLayout>

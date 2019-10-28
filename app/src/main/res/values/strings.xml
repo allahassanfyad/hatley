@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">hatley</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="select">
+        <item>Select</item>
+        <item>Select</item>
+        <item>Select</item>
+    </string-array>
+
+</resources>

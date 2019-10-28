@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Order Description"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/redus"/>
+
+
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:text="Product Image"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+   <ImageView
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:background="@drawable/redus"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="25dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnbg"
+            android:drawableLeft="@drawable/ic_24_hours"
+            android:drawablePadding="10dp"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Delevery Time"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Delivery Time"
+            android:background="@drawable/editbg"
+            android:gravity="center_horizontal|center"
+            android:layout_marginRight="20dp"/>
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="25dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnbg"
+            android:drawableLeft="@drawable/ic_coupon"
+            android:drawablePadding="10dp"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Coupon Code "
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Coupon Code "
+            android:background="@drawable/editbg"
+            android:gravity="center_horizontal|center"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/btnbg"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:text="Create Order"
+        android:textColor="@color/wcolor"
+        android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

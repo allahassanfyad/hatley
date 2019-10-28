@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Senarios.Senario_One.Controllers.Activities.SignUp_Activity"
+    android:background="@drawable/backgroundmain">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bikesignup"/>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:textColor="@color/wcolor"
+                android:typeface="serif"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"/>
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/ic_profile"
+                android:padding="12dp"
+                android:hint="User Name"
+                android:textColorHint="@color/design_default_color_on_primary"
+                android:drawablePadding="10dp"
+                android:textColor="@color/design_default_color_on_primary"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/ic_profile"
+                android:padding="12dp"
+                android:hint="Email"
+                android:textColorHint="@color/wcolor"
+                android:drawablePadding="10dp"
+                android:textColor="@color/wcolor"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/ic_profile"
+                android:padding="12dp"
+                android:hint="Password"
+                android:textColorHint="@color/wcolor"
+                android:drawablePadding="10dp"
+                android:textColor="@color/wcolor"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/ic_profile"
+                android:padding="12dp"
+                android:hint="Confirm Password"
+                android:textColorHint="@color/design_default_color_on_primary"
+                android:drawablePadding="10dp"
+                android:textColor="@color/design_default_color_on_primary"
+                android:singleLine="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:text="Buy clicking create an account you agree to our "
+                    android:textColor="@android:color/white"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="terms"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:textColor="@color/scolor"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="and confirm that."
+                        android:layout_marginLeft="3dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:textSize="13dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnsignup"
+                android:layout_width="340dp"
+                android:layout_height="42dp"
+                android:background="@drawable/btnsignin"
+                android:text="Sign Up"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="42dp"
+                android:background="@drawable/facebookbutton"
+                android:layout_marginTop="18dp"
+                android:text="Sign up with Facebook"
+                android:textColor="@color/wcolor"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Privacy Policy"
+                    android:textColor="@color/wcolor"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Terms of service"
+                    android:layout_gravity="right"
+                    android:textColor="@color/wcolor"
+                    android:textAlignment="textEnd"
+                    android:layout_weight="1"
+                    tools:ignore="RtlCompat" />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

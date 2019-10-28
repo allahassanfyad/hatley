@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Senarios.Senario_One.Controllers.Activities.Sign_In_Activity"
+    android:background="@drawable/backgroundmain">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bikephoto"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:src="@drawable/hatlylogo"
+                android:layout_marginTop="50dp"
+                />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/ic_profile"
+                android:padding="12dp"
+                android:hint="User Name"
+                android:textColorHint="@color/design_default_color_on_primary"
+                android:drawablePadding="10dp"
+                android:textColor="@color/design_default_color_on_primary"
+                android:singleLine="true"/>
+
+
+            <EditText
+                android:id="@+id/editTextPass"
+                android:layout_width="350dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawableRight="@drawable/ic_visibility"
+                android:padding="12dp"
+                android:hint="Password"
+                android:textColorHint="@color/design_default_color_on_primary"
+                android:drawablePadding="10dp"
+                android:textColor="@color/design_default_color_on_primary"
+                android:singleLine="true"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="12dp"
+                    android:buttonTint="@color/fcolor"
+                    android:textColor="@color/design_default_color_on_primary"
+                    android:text="Remember Me "
+                    android:textSize="12dp"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33dp"
+                    android:buttonTint="@color/fcolor"
+                    android:textColor="@color/design_default_color_on_primary"
+                    android:text="Or use fingerprint to login each once "
+                    android:textSize="12dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="42dp"
+                android:background="@drawable/btnsignin"
+                android:text="Sign In"
+                android:layout_marginTop="20dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:weightSum="3">
+
+
+                <View
+                    android:layout_height="1dp"
+                    android:background="@color/wcolor"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="or login with"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/design_default_color_on_primary"/>
+
+                <View
+                    android:layout_height="1dp"
+                    android:background="@color/wcolor"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="42dp"
+                android:background="@drawable/facebookbutton"
+                android:layout_marginTop="25dp"
+                android:text="Sign in with Facebook"
+                android:textColor="@color/wcolor"/>
+
+
+
+
+            <TextView
+                android:id="@+id/txtNewAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fcolor"
+                android:text="Create new Account "
+                android:layout_marginTop="25dp"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
